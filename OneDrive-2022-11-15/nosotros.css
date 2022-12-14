@@ -1,0 +1,380 @@
+:root{
+    --azul_title:  #5ca4ec;
+    --blanco_title:  #e2ebf0;
+    --azul_fond:  #5c9ccc;
+    --azul_fond_2:  #90dff8;
+    --boton: #2484c4;
+    --azul_title_1: #154f9e;
+    --azul_sub:  #2484c4;
+    --azul_sub_1:  #154f9e;
+    --azul_nav: #5e9ace;
+}
+
+#seccion_inicio{
+    width: 100%;
+    padding: 2vw 0;
+    display: flex;
+    justify-content: center;
+}
+#seccion_inicio h1{
+    font-family: 'Chivo', sans-serif;;
+    margin-top: 12px;
+    font-size: 3em;
+    color: var(--azul_title_1);
+}
+
+/* ---------NOSOTROS--------- */
+#nosotros{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+.imagen_nosotros{
+    /* outline: 2px solid blue; */
+    width: 40%;
+    height: 400px;
+    padding: 5px;
+}
+.imagen_nosotros img{
+    width: 100%;
+    height: 100%;
+}
+.texto_nosotros{
+    /* outline: 2px solid blue; */
+    width: 60%;  
+    padding: 10px; 
+}
+.texto_nosotros h2{
+    color:var(--azul_sub);
+    /* border: 2px solid rgb(0, 0, 0); */
+    font-family: 'Chivo', sans-serif;;
+    text-transform:capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3vw 3vw 2vw 3vw;
+}
+.texto_nosotros span{
+    color: var(--azul_sub_1);
+    font-family: 'Chivo', sans-serif;;
+}
+.texto_nosotros p{
+
+    font-size: 1.1em;
+    padding-left: 5px;
+    font-family: 'Chivo', sans-serif;;
+    color: black;
+}
+/* -------DOCTORES------ */
+/* #doctores{
+    outline: 2px solid red;
+    background-color: aquamarine;
+} */
+#doctores h3{
+    /* outline: 2px solid red; */
+    color: var(--azul_sub);
+    font-family: 'Chivo', sans-serif;;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 2.2em;
+    padding-top: 4vw;
+}
+#doctores{
+    padding-bottom: 3vw;
+}
+.colaboradores{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.div-target{
+    border: 2px solid var(--azul_fond);
+    border-radius: 25px;
+    width: 20vw;
+    height: 20vw;
+    margin: 2vw 5vw;
+    font-family: 'Chivo', sans-serif;;
+    justify-content: center;
+    text-align: center;
+    /* background-color: blue; */
+    background-image: url(img/Luisa-consultorio.jpg);
+    background-size: cover;
+}
+
+
+.div-target-2{
+    border: 2px solid var(--azul_fond);
+    border-radius: 25px;
+    width: 20vw;
+    height: 20vw;
+    margin: 2vw 5vw;
+    font-family: 'Chivo', sans-serif;;
+    justify-content: center;
+    text-align: center;
+    /* background-color: blue; */
+    background-image: url(img/doctor_2.png);
+    background-size: cover;
+}
+.div-target-3{
+    border: 2px solid var(--azul_fond);
+    border-radius: 25px;
+    width: 20vw;
+    height: 20vw;
+    margin: 2vw 5vw;
+    font-family: 'Chivo', sans-serif;;
+    justify-content: center;
+    text-align: center;
+    /* background-color: blue; */
+    background-image: url(img/doctor_1.png);
+    background-size: cover;
+}
+.div-target-4{
+    border: 2px solid var(--azul_fond);
+    border-radius: 25px;
+    width: 20vw;
+    height: 20vw;
+    margin: 2vw 5vw;
+    font-family: 'Chivo', sans-serif;;
+    justify-content: center;
+    text-align: center;
+    /* background-color: blue; */
+    background-image: url(img/doctor_3.png);
+    background-size: cover;
+}
+.div-target-5{
+    border: 2px solid var(--azul_fond);
+    border-radius: 25px;
+    width: 20vw;
+    height: 20vw;
+    margin: 2vw 5vw;
+    font-family: 'Chivo', sans-serif;;
+    justify-content: center;
+    text-align: center;
+    /* background-color: blue; */
+    background-image: url(img/doctor_5.png);
+    background-size: cover;
+}
+.div-target-6{
+    border-radius: 25px;
+    border: 2px solid var(--azul_fond);
+    width: 20vw;
+    height: 20vw;
+    margin: 2vw 5vw;
+    font-family: 'Chivo', sans-serif;;
+    justify-content: center;
+    text-align: center;
+    /* background-color: blue; */
+    background-image: url(img/doctor_4.png);
+    background-size: cover;
+}
+
+/* informacion_persona */
+.info-noticia{
+    /* background-color:red; */
+    height: 80%;
+}
+.info-contacto{
+    /* background-color: rgb(131, 128, 128); */
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-target-1{
+    background-color:var(--azul_nav);
+    width: 15vw;
+    height: 4vw;
+    align-self: flex-end;
+    position: relative;
+    top: 2vw;
+    transition: 1s;
+    overflow: hidden;
+}
+.info-target-1:hover{
+    height: 90px;
+    transition: 1s;
+}
+.info-target-1 .texto{
+    /* outline: 2px solid red; */
+    padding: 1px;
+    color: white;
+}
+.info-target-1 .ocupacion{
+    /* outline: 2px solid red; */
+    padding: 1px;
+    color: white;
+}
+.info-target-1 .redes{
+    /* outline: 2px solid red; */
+    padding: 1px;
+    width: 50%;
+    margin: auto;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+.info-target-1 a{
+    color: white;
+    font-size: 1.4em;
+}
+.info-target-1 .redes a i:hover{
+    color:var(--azul_fond_2);
+    transition: 0.8s;
+}
+
+/* sedes */
+#sedes{
+    /* outline: 2px solid red; */
+    text-align: center;
+    margin-top: 2vw;
+}
+#sedes h3{
+    font-family: 'Chivo', sans-serif;;
+    font-size: 2.2em;
+    color: var(--azul_sub);
+}
+.sedes_1{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+.sedes-1-1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+#sedes .t-1{
+    text-align: left;
+    padding: 1vw;
+    font-family: 'Chivo', sans-serif;;
+}
+#sedes .t-2{
+    font-family: 'Chivo', sans-serif;;
+    color: var(--azul_sub_1);
+}
+.div-text-target{
+    height: 50%;
+}
+
+.target-1{
+    border-radius: 50px;
+    border: 3px solid var(--azul_fond);
+    width: 40%;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    padding-top: 1vw;
+}
+.xt{
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    width: 100%;
+    align-items: center;
+}
+.xt p{
+    text-align: center;
+    font-family: 'Chivo', sans-serif;;
+    color: var(--azul_sub_1);
+    font-size: 1.1em;
+    
+}
+
+@media screen and (max-width: 992px) {
+
+    .info-target-1{
+        width: 15vw;
+        height: 3vw;
+        top: 1vw;
+    }
+    .info-target-1:hover{
+        height: 95px;
+        transition: 1s;
+    }
+    .target-1{
+        width: 40%;
+        margin: 2vw 3vw;
+    }
+
+}
+@media screen and (max-width: 576px) {
+
+    .imagen_nosotros{
+        width: 100%;
+        display: flex;
+    }
+    .texto_nosotros{
+        width: 100%;
+        padding: 1vw 5vw;
+    }
+    
+    .info-target-1{
+        width: 15vw;
+        height: 3vw;
+        top: 1vw;
+    }
+    .info-target-1:hover{
+        height: 95px;
+        transition: 1s;
+    }
+    .sedes_1{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        width: 100%;
+    }
+    .target-1{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 5vw;
+    }
+    .sedes-1-1{
+        display: block;
+        width: 70%;
+    }
+    .colaboradores{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .div-target{
+        width: 40vw;
+        height: 30vw;
+    }
+    .div-target-2{
+        width: 40vw;
+        height: 30vw;
+    }
+    .div-target-3{
+        width: 40vw;
+        height: 30vw;
+    }
+    .div-target-4{
+        width: 40vw;
+        height: 30vw;
+    }
+    .div-target-5{
+        width: 40vw;
+        height: 30vw;
+    }
+    .div-target-6{
+        width: 40vw;
+        height: 30vw;
+    }
+    .info-target-1{
+        width: 30vw;
+        height: 6vw;
+    }
+    .target-1{
+        padding-top: 2vw;
+    }
+}

@@ -1,0 +1,15 @@
+#seccion_inicio{
+    /* outline: 2px solid red; */
+    width: 100%;
+    height: 150px;
+}
+#seccion_inicio .inicio{
+    outline: 2px solid  blue;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    
+}

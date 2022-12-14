@@ -1,0 +1,247 @@
+:root{
+    --azul_title:  #5ca4ec;
+    --blanco_title:  #e2ebf0;
+    --azul_fond:  #5c9ccc;
+    --azul_fond_2:  #90dff8;
+    --boton: #2484c4;
+    --azul_title_1: #154f9e;
+    --azul_sub:  #2484c4;
+    --azul_sub_1:  #154f9e;
+}
+h1{
+    text-align: center;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    color: var(--azul_title_1);
+}
+
+#info{
+    display: flex; 
+    justify-content: flex-end;
+}
+.info_p{
+    width: 60%;
+    /* outline: 2px solid red; */
+}
+.info_p p{
+    margin: 5vw;
+}
+.info_img{
+    
+    height: 20vw;
+    margin: 1vw;
+    width: 40%;
+    /* margin-right: 3vw; */
+    background-image: url(img/Estetica_dental.jpg);
+    background-size: cover;
+}
+#N_ser{
+    background-color: var(--azul_fond);
+    width: 100%;
+    height: 150px;
+}
+#N_ser h2{
+    text-align: center;
+    align-items: center;
+    margin-top: 2vw;
+    padding: 4vw;
+    color: var(--blanco_title);
+}
+
+/* servicios */
+
+#info_servicios{
+    /* background-color: blue; */
+    
+    width: 100%;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+#info_servicios .caja{
+    border: 2px solid var(--azul_fond);
+    border-radius: 15px;
+    width: 40%;
+    /* height: 400px; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 6px;
+    margin-bottom: 15px;
+}
+.caja .im{
+    /* outline: 2px solid blue; */
+    width: 100%;
+    height: 250px;
+    padding: 5px;
+}
+.caja .im img{
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+}
+.caja  .te{
+    /* outline: 2px solid green; */
+    padding: 10px;
+    /* height: 100%; */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* padding: 5px; */
+
+}
+.caja .te h2{
+    padding-top: 5px;
+    color: var(--azul_title);
+    /* outline: 2px solid black; */
+    width: 100%;
+    text-align: center;
+
+}
+.caja  .te p{
+    padding: 1vw;
+    padding-left: 2vw;
+    /* outline: 2px solid black; */
+    width: 100%;
+}
+.caja ul{
+    /* outline: 2px solid red; */
+    width: 100%;
+    padding-left: 8vw;
+    font-size: 1.2rem;
+    color: var(--azul_sub_1);
+    text-decoration: none;
+}
+.caja li{
+    list-style: none;
+    text-decoration: none;
+}
+.caja  .te button{
+    /* outline: 2px solid black; */
+    width: 40%;
+    height: 50px;
+    font-size: 1.3rem;
+    border-radius: 50px;
+    background-color: var(--boton);
+    border: none;
+    color: white;
+
+}
+.caja .te button a{
+    text-decoration: none;
+    color: white;
+}
+
+
+@media screen and (max-width: 992px) {
+
+    .info_img{
+        height: 25vw;
+    }
+    #info_servicio .servicio{
+        height: 250px;
+    }
+    .info_imgs{
+        height: 22vw;
+    }
+    .btn_ser button{
+        width: 40%;
+    }
+    #N_ser h2{
+        padding: 5vw;
+    }
+
+/* ---servicios---- */
+    #info_servicios{
+        /* background-color: blue; */
+        
+        width: 100%;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        
+    }
+    #info_servicios .caja{
+        /* border: 2px solid blue; */
+        /* height: 350px; */
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 6px;
+        margin-bottom: 15px;
+    }
+    .caja  .te button{
+        width: 50%;
+        height: 55px;
+    }
+    .caja .im{
+        width: 40%;
+        height: 350px;
+        padding: 5px;
+    }
+    .caja  .te{
+        width: 60%;
+    }
+}
+
+@media screen  and (max-width: 576px) {
+    #info{
+        flex-wrap: wrap;
+    }
+    .info_p{
+        width: 100%;
+    }
+    .info_img{
+        height: 40vw;
+        width: 100%;
+    }
+    #N_ser{
+        height: 140px;
+    }
+    #N_ser h2{
+        padding: 7vw;
+    }
+/* -------servicios--------- */
+
+    #info_servicios .caja{
+        width: 80%;
+        height: 550px;
+    }
+    .caja .im{
+        /* outline: 2px solid blue; */
+        width: 100%;
+        height: 180px;
+        padding: 5px;
+    }
+    .caja .im img{
+        padding: 5px;
+        width: 100%;
+        height: 100%;
+    }
+    .caja  .te{
+        /* outline: 2px solid green; */
+        padding: 0px;
+        width: 100%;
+        height: 350px;
+        /* padding: 5px; */
+    }
+    .caja  .te p{
+        padding: 2px;
+        padding-left: 2vw;
+        /* outline: 2px solid black; */
+        width: 100%;
+    }
+    .caja  .te button{
+        /* outline: 2px solid black; */
+        width: 50%;
+        font-size: 1.2rem;
+    }
+}
+

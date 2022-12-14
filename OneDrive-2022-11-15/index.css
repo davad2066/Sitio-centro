@@ -1,0 +1,235 @@
+:root{
+    --azul_title:  #5ca4ec;
+    --blanco_title:  #e2ebf0;
+    --azul_fond:  #5c9ccc;
+    --azul_fond_2:  #90dff8;
+    --boton: #2484c4;
+    --azul_title_1: #154f9e;
+    --azul_sub:  #2484c4;
+    --azul_sub_1:  #154f9e;
+    --azul_nav: #5e9ace;
+}
+
+/*-------Img Principal Cotizar-------*/
+.pq-elegirnos{
+    /* outline: 2px solid red; */
+    width: 100%;
+    display: flex;
+    padding: 3vw;
+}
+.video-pq-elegirnos{
+    width: 50%;
+    /* background-color: gray; */
+}
+.video-pq-elegirnos video{
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+}
+.porque-elegirnos{
+    /* outline: 2px solid blue; */
+    width: 50%;
+    padding: 0 2vw;
+}
+.porque-elegirnos h2{
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Chivo', sans-serif;;
+    color: var(--azul_title_1);
+}
+.porque-elegirnos p{
+    padding: 0 3vw;
+    font-family: 'Chivo', sans-serif;;
+}
+/*----------Cotizar Service-----------------*/
+#servicios{
+    width: 100%;
+}
+#servicios h2{
+    font-family: 'Chivo', sans-serif;;
+    text-align: center;
+    font-size: 2em;
+    color: var(--azul_title_1);
+}
+.centro_servicios{
+    display: flex;
+}
+.divicion-card-1{
+    display: flex;
+}
+.divicion-card-2{
+    display: flex;
+}
+.card-service{
+    margin: 3vw;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    background-color: var(--azul_fond_2);
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+
+}
+.icon{
+    width: 100%;
+    background-color: white;
+}
+.icon img{
+    /* padding: 1vw; */
+    width: 60%;
+}
+
+.card-service p{
+    font-family: 'Chivo', sans-serif;
+    font-size: 1.3em;
+    text-align: center;
+    text-decoration: none;
+    color: var(--azul_sub);
+}
+.card-service a{
+    text-decoration: none;
+    list-style: none;
+}
+/* -----------NOTICIAS---------------- */
+.div-notice-h2{
+    /* outline: 2px solid red; */
+    font-family: 'Chivo', sans-serif;;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-left: 5vw;
+    margin-bottom:0%;
+    background-color: var(--azul_fond_2);
+}
+.slider{
+    /* outline: 2px solid red; */
+    display: flex;
+    justify-content: center;
+}
+.slide{
+    width: 100%;
+    padding: 2vw;
+    background-color: var(--azul_fond_2);
+    font-size: 1.4vw;
+    display: flex;
+}
+.carousel-item div{
+    display: flex;
+    justify-content: center;
+}
+.carousel-item img{
+    width: 25vw;
+    padding: 0 2vw;
+}
+
+
+
+@media screen and (max-width: 992px) {
+
+    .centro_servicios{
+        display: block;
+    }
+    #pq_elegirnos .elegirnos{
+        width: 50%;
+        background-color: rgba(255, 255, 255, 0.591);
+    }
+    #pq_elegirnos .elegirnos p{
+        width: 100%;
+    }
+    .carousel-item img{
+        width: 27vw;
+    }
+
+/* ------Servicios-------------- */
+    #servicios{
+        width: 100%;
+    }
+    #servicios h2{
+        font-family: 'Chivo', sans-serif;;
+        text-align: center;
+        font-size: 2em;
+        color: blue;
+    }
+    .centro_servicios{
+        display: flex;
+    }
+    .divicion-card-1{
+        display: flex;
+    }
+    .divicion-card-2{
+        display: flex;
+    }
+    .card-service{
+        margin: 2vw;
+        width: 100%;
+        text-align: center;
+        padding: 5px;
+        background-color: aqua;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+        align-items: center;
+        align-self: center;
+        align-content: center;
+
+    }
+    .icon{
+        width: 100%;
+        background-color: white;
+    }
+    .icon img{
+        /* padding: 1vw; */
+        width: 60%;
+    }
+
+    .card-service p{
+        font-family: 'Chivo', sans-serif;
+        font-size: 1.3em;
+        text-align: center;
+        text-decoration: none;
+    }
+    .card-service a{
+        text-decoration: none;
+        list-style: none;
+    }
+
+}
+@media screen and (max-width: 576px) {
+
+    .carousel-item img{
+        width: 27vw;
+    }
+    .div-notice-h2{
+        /* outline: 2px solid red; */
+        font-size: large;
+    }
+    .pq-elegirnos{
+        /* outline: 2px solid red; */
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .video-pq-elegirnos{
+        width: 90%;
+        margin: auto;
+    }
+    .porque-elegirnos{
+        /* outline: 2px solid blue; */
+        width: 100%;
+    }
+
+        /* ------Servicios-------------- */
+
+    .centro_servicios{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+}

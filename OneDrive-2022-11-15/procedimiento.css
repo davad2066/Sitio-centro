@@ -1,0 +1,83 @@
+.procedimiento{
+    display: flex;
+    justify-content: center;
+}
+.div-procedimiento{
+    width: 80%;
+    height: 20vw;
+    display: flex;
+    margin-bottom: 3vw;
+}
+.div-procedimiento-1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.div-procedimiento-1-1{
+    width: 80%;
+    border-radius: 50%;
+    background-color: rgb(157, 157, 157);
+}
+h2{
+    text-align: center;
+    margin: 5vw 0;
+}
+
+.cita{
+    display: flex;
+    justify-content: flex-end;
+    margin: 3vw 0;
+}
+.solicitar-cita{
+    width: 40%;
+    height: 100%;
+    margin-right: 5vw;
+}
+.solicitar-cita p{
+    font-size: 1.5rem;
+    padding: 1vw 3vw;
+}
+.solicitar-info-1{
+    padding: 0.5vw 3vw;
+    font-size: 1.5rem;
+
+}
+.solicitar-info-2-1{
+    width: 55%;
+}
+.solicitar-info-2-2{
+    padding: 0 0 0 3vw;
+}
+.solicitar-info-2{
+    display: flex;
+    padding: 0.5vw 3vw;
+    font-size: 1.5rem;
+}
+.solicitar-info-2 input{
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.solicitar-info-1 input{
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.solicitar-info-1 textarea{
+    border: 2px solid black;
+    border-radius: 20px;
+    resize: none;
+}
+.enviar{
+    display: flex;
+    justify-content: center;
+}
+.enviar-info{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 0.2vw 2vw;
+    font-size: 1.2rem;
+    margin: 1vw 0;
+}
+
+
